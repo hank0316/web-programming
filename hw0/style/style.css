@@ -1,0 +1,95 @@
+.div {
+    display: flex;
+    position: center;
+}
+
+.the_background {
+    position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main {
+    position: fixed;
+
+    border: 2px solid black;
+    border-radius: 5px;
+
+    height: 500px;
+    width: 350px;
+
+    left: 757px;
+    top: 210px;
+
+    background-color: #d6dbe4;
+}
+
+.cover {
+    position: fixed;
+    transform: scale(0.351, 0.351);
+
+    left: 552px;
+    top: 0px;
+}
+
+.song_info > * {
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+
+    position: fixed;
+    left: 805px;
+}
+.song_name {
+    font-size: 20px;
+    top: 540px;
+}
+
+.singer {
+    font-size: 17px;
+    top: 565px;
+}
+
+.buttons {
+    position: fixed;
+
+    left: 800px;
+    right: 400px;
+    top: 635px;
+    bottom: 350px;
+}
+
+.buttons > * {
+    position: fixed;   
+}
+
+.start {
+    left: 915px;
+    transform: scale(1.5);
+}
+
+.next {
+    left: 1025px;
+}
+
+.back {
+    left: 805px;
+}
+
+.slider {
+    /* for slider's position */
+    left: 800px;
+    top: 595px;
+}
+
+input[type="range"] {
+    width: 270px;
+}
+
+.start:hover {
+    transform: scale(1.5) rotate(15deg);
+}
+
+.next:hover, .back:hover {
+    transform: rotate(15deg);
+}
